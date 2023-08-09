@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: rgb(52, 77, 160);
+    color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+header h1 a{
+    color: rgb(200, 50, 50);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 30pt;
+    font-family: 'Great Vibes', cursive;
+}
+
+header h1 a:hover{
+    color: brown;
+}
+
+header ul li{
+    display: inline;
+    padding: 80px;
+}
+
+header ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header ul li a:hover{
+    color: rgb(180, 197, 255);
+}
+
+.botao{
+    width: 150px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(200, 50, 50);
+    border: none;
+}
+
+.botao a{
+    text-decoration: none;
+    color: rgb(52, 77, 160);
+    font-weight: 900;
+    font-size: 12pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+.botao:hover{
+    background-color: brown;
+}
+
+body video{
+    width: 100%;
+}
+
+body h2{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 50pt;
+    padding-top: 50px;
+}
+
+#mkt, #boasvindas{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mkt article{
+    margin: 30px;
+}
+
+#mkt article p{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+#mkt h3, #titulo-boasvindas{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40pt;
+    text-align: center;
+}
+
+#titulo-boasvindas{
+    padding-top: 75px;
+}
+
+#mkt img{
+    width: 700px;
+    border-radius: 200px;
+}
+
+#mkt button {
+    margin-top: 10px;
+}
+#mkt button a{
+    color: aliceblue;
+}
+
+#boasvindas{
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+#boasvindas p{
+    padding: 10px;
+    font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
+    margin: auto 0;
+}
+
+#boasvindas img{
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+
+#rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 75px;
+    background-color: rgb(52, 77, 160);
+    color: aliceblue;
+}
+
+
+#contatos{
+    font-size: 18pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contatos section{
+    padding-bottom: 30px;
+}
+
+#lista, #sociais{
+    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+#lista form{
+    display: flex;
+    padding-top: 10px;
+}
+
+#lista form input{
+    width: 375px;
+    height: 50px;
+    font-size: 15pt;
+    display: block;
+    margin: auto 0;
+}
+#lista form input:focus{
+    outline: 2.5px solid brown;
+    border: none;
+}
+
+#lista form button {
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: auto 0;
+    background-color: rgb(200, 50, 50);
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+}
+#lista form button:hover{
+    background-color: brown;
+}
+
+
+#sociais ul{
+    display: flex;
+}
+
+#sociais ul li{
+    padding: 8px;
+}
+
+#sociais ul li img{
+    width: 50px;
+}
+
+
+
+
+
+
+#direitos{
+    text-align: center;
+    background-color: rgba(165, 42, 42, 0.800);
+    padding: 8px;
+    color: aliceblue;
+    font-size: 10pt;
+
+}
